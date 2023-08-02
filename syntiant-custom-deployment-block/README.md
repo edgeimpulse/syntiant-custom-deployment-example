@@ -35,7 +35,3 @@ Set Mount Learn Block Under /data to true (necessary for the synpkg generation)
 ![Alt text](image-2.png)
 
 Also tick Privileged to give the block access to the internet and the project API key (necessary for the API calls)
-
-### NDP115 support
-To change the chip you build for, in `generate_synpkg_lib.sh` find the line which calls `generate_synpkg.py` and `generate_synpkg_imu.py` and pass the `--chip` parameter, the valid
-    NDPs are "NDP10X_B0", "NDP115_A0", and "NDP120_B0"
