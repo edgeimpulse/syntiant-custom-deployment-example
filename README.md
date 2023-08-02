@@ -1,0 +1,4 @@
+# Custom Deployment Block Examples for Syntiant
+This repo contains two examples for how to use the [custom deployment block](https://docs.edgeimpulse.com/docs/edge-impulse-studio/deployment/building-deployment-blocks) flow with a Syntiant chip project.
+
+These examples use API calls to build the syntiant firmware and download it into the container to then perform further actions. The nicla-syntiant-custom-deployment-block folder gives an example of building the arduino nicla voice firmware- allowing you to customise the firmware to add in your own logic. The syntiant-custom-deployment-block is a blank canvas which you can use as a starting point for other types of hardware/software integrations. See the READMEs in the enclosing folders

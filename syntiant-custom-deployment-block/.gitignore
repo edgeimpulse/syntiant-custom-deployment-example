@@ -1,0 +1,10 @@
+.DS_Store
+*.egg-info/
+**/__pycache__/
+input/audio/google_30_20200226
+input/audio/241_tdk
+input/features/*.npy
+output/*.npy
+output/*.synpkg
+ndp-training-development-kit-v13.1.0
+.ei-block-config
